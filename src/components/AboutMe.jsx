@@ -18,9 +18,9 @@ class AboutMe extends Component {
             <i className="fas fa-quote-left"></i>
             My name is Vincent. I have taught myself how to code and build web
             applications entirely from scratch. The enjoyment of problem-solving
-            and my curiosity about learning new concepts motivate me to improve
-            my coding skills every day. It is my dream to contribute my
-            creativity and communication skills to awesome projects.{" "}
+            and my curiosity for learning new concepts motivate me to improve my
+            coding skills every day. It is my dream to contribute my creativity
+            and communication skills to awesome projects.{" "}
             <i className="fas fa-quote-right"></i>
           </p>
         </div>
