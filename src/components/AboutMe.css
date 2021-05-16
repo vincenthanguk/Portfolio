@@ -1,21 +1,22 @@
 .AboutMe {
-  border: 2px solid black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  /* background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 10px 50px 5px rgba(0, 0, 0, 0.5); */
+  color: whitesmoke;
   height: 60vh;
-  width: 60vw;
-}
-
-.content {
-  border: 2px solid rebeccapurple;
-  display: grid;
-  grid-template-columns: 10px 1fr 10px 1fr 10px;
-  grid-template-rows: 1fr 50px;
+  width: 80vw;
 }
 
 .profile-picture {
-  grid-column-start: 2;
   justify-self: center;
-  align-self: center;
-  border: 2px solid greenyellow;
+  border: 2px solid #a3b18a;
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -23,12 +24,14 @@
 }
 
 .profile-text {
-  grid-column-start: 4;
-  border: 2px solid red;
-  font-size: 0.8rem;
+  width: 300px;
+
+  font-size: 0.9rem;
+  text-align: left;
 }
 
-.profile-social {
-  grid-row-start: 2;
-  grid-column-start: 4;
+p i {
+  color: #a3b18a;
+  font-size: 1rem;
+  margin-right: 0.3rem;
 }
