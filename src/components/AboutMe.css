@@ -36,6 +36,12 @@ h2 {
 p i {
   color: #a3b18a;
   font-size: 0.9rem;
-  margin-left: 0.6rem;
+}
+
+.fa-quote-left {
   margin-right: 0.6rem;
+}
+
+.fa-quote-right {
+  margin-left: 0.6rem;
 }

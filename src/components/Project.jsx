@@ -14,7 +14,7 @@ class Project extends Component {
           />
         </div>
         <div className="project-description">
-          <div>
+          <div className="project-description-title">
             <a
               href={this.props.projectLink}
               target="_blank"
