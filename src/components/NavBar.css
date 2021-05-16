@@ -1,0 +1,27 @@
+.NavBar {
+  margin-right: 80px;
+  margin-top: 20px;
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.NavBar-link {
+  margin-right: 30px;
+}
+
+.active-link {
+  color: #c0d1a2;
+  border-bottom: 1px solid #c0d1a2;
+}
+
+a {
+  color: #a3b18a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c0d1a2;
+}

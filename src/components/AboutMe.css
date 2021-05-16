@@ -11,14 +11,14 @@
   box-shadow: 0px 10px 50px 5px rgba(0, 0, 0, 0.5); */
   color: whitesmoke;
   height: 60vh;
-  width: 80vw;
+  width: 60vw;
 }
 
 .profile-picture {
   justify-self: center;
   border: 2px solid #a3b18a;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
   background-image: url("https://images.unsplash.com/photo-1532920161727-344adb090f7f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
 }
@@ -27,11 +27,12 @@
   width: 300px;
 
   font-size: 0.9rem;
+  line-height: 1.5rem;
   text-align: left;
 }
 
 p i {
   color: #a3b18a;
   font-size: 1rem;
-  margin-right: 0.3rem;
+  margin-right: 0.6rem;
 }
