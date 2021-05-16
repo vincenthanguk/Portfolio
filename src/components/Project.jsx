@@ -6,12 +6,13 @@ class Project extends Component {
     return (
       <div className="Project">
         <div className="project-image">
-          <img
-            src={this.props.imageLink}
-            alt="project"
-            width="180"
-            height="180"
-          />
+          <a
+            href={this.props.projectLink}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img src={this.props.imageLink} alt="project" />
+          </a>
         </div>
         <div className="project-description">
           <div className="project-description-title">
@@ -22,8 +23,9 @@ class Project extends Component {
             >
               {this.props.projectName}
             </a>
-            {" | "}
-            {this.props.techStack}
+            <div className="project-description-techstack">
+              {this.props.techStack}
+            </div>
           </div>
           <div>{this.props.description}</div>
         </div>

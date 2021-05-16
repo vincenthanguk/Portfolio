@@ -25,3 +25,17 @@ a {
 a:hover {
   color: #c0d1a2;
 }
+
+@media (max-width: 767.98px) {
+  .NavBar {
+    margin-right: 0px;
+    position: relative;
+    right: initial;
+    align-content: center;
+  }
+
+  .NavBar-link {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
