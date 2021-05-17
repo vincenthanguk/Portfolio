@@ -7,13 +7,10 @@ class AboutMe extends Component {
     return (
       <div className="AboutMe">
         <div className="profile-picture">
-          <img
-            src="https://images.unsplash.com/photo-1532920161727-344adb090f7f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
-            alt="project"
-          />
+          <img src="images/portrait.jpg" alt="project" />
         </div>
         <div className="profile-text">
-          <h2>Hi There!</h2>
+          <h2>Hi there!</h2>
           <p>
             <i className="fas fa-quote-left"></i>
             My name is Vincent. I have taught myself how to code and build web

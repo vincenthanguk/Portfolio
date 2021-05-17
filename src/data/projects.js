@@ -5,7 +5,7 @@ const projects = [
     link: "https://lights-out-vincentmax.netlify.app/",
     image: "images/lightsout.png",
     description:
-      "Lights Out game built with React.js. My biggest challenges in this project were to design a dynamic board with clickable tiles, as well as managing state and event handlers throughout the application. Lights are toggled in a '+' shaped pattern, when the player clicks on a tile. The goal of the game is to switch off all the lights.",
+      "Lights Out game built with React.js. My biggest challenges in this project were designing a dynamic board with clickable tiles and managing state and event handlers throughout the application. Lights are toggled in a '+' shaped pattern, when the player clicks on a tile. The goal of the game is to switch off all the lights.",
   },
   {
     name: "Solvitur Ambulando",
@@ -21,7 +21,7 @@ const projects = [
     link: "https://mccune-reischauer.netlify.app/",
     image: "images/mccune.png",
     description:
-      "My first ever Web Application. This tool converts Korean writing into alphabetical letters according to the scientific McCune-Reischauer romanization system. It is written entirely in Javascript and makes use of the Hangul.js module, which disassembles Korean syllable blocks into single letters. The single letters are then checked and converted according to their position within the word. The great number of possible combinations for each letter required careful structuring of if-statements and lengthy testing.",
+      "My first ever Web Application. This tool converts Korean writing into alphabetical letters according to the scientific McCune-Reischauer romanization system. It is written entirely in JavaScript and makes use of the Hangul.js module, which disassembles Korean syllable blocks into single letters. The single letters are then checked and converted according to their position within the word. The great number of possible combinations for each letter required careful structuring of if-statements and lengthy testing.",
   },
   {
     name: "Simply Do",
