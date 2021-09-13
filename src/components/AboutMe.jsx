@@ -7,19 +7,20 @@ class AboutMe extends Component {
     return (
       <div className="AboutMe">
         <div className="profile-picture">
-          <img src="images/portrait_thumbnail.jpg" alt="project" />
+          <img src="images/portrait_thumbnail.jpg" alt="Vincent Kreusel" />
         </div>
-        <div className="profile-text">
-          <h2>Hi there!</h2>
-          <p>
-            <i className="fas fa-quote-left"></i>
+        <div className="profile-text-container">
+          <h1 className="profile-heading">Hello World!</h1>
+          <blockquote className="profile-text">
+            <span className="profile-icon">
+              <i className="fas fa-quote-left"></i>
+            </span>
             My name is Vincent. I have taught myself how to code and build web
             applications from scratch. The enjoyment of problem-solving and my
             curiosity for learning new concepts motivate me to improve my coding
-            skills every day. It is my dream to contribute my creativity and
-            communication skills to awesome projects.{" "}
-            <i className="fas fa-quote-right"></i>
-          </p>
+            skills every day.
+          </blockquote>
+          <button>Check out my projects</button>
         </div>
       </div>
     );

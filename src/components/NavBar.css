@@ -1,11 +1,4 @@
 .NavBar {
-  margin-right: 80px;
-  margin-top: 20px;
-  position: absolute;
-  right: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
 }
 
 .NavBar-link {

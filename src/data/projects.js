@@ -24,6 +24,22 @@ const projects = [
       "My first ever Web Application. This tool converts Korean writing into alphabetical letters according to the scientific McCune-Reischauer romanization system. It is written entirely in JavaScript and makes use of the Hangul.js module, which disassembles Korean syllable blocks into single letters. The single letters are then checked and converted according to their position within the word. The great number of possible combinations for each letter required careful structuring of if-statements and lengthy testing.",
   },
   {
+    name: "Natours",
+    techStack: "Node.js, MongoDB, Mongoose, Express, Pug",
+    link: "http://natours-vincenthanguk.herokuapp.com/",
+    image: "images/natours_thumbnail.png",
+    description:
+      "Complete tour booking API written in node.js. This project was my first dive into backend development. I deepened my understanding about RESTful APIs and MVC design patterns, how to model data and perform operations on it, how to implement user authentication using JSON Web Tokens and much more.",
+  },
+  {
+    name: "Omnifood",
+    techStack: "JavaScript, HTML/CSS",
+    link: "https://omnifood-vincent.netlify.app/",
+    image: "images/omnifood_thumbnail.png",
+    description:
+      "Stylish web page using modern CSS features. This project taught me rules and solid frameworks for web design. I learned how to do layouts with CSS grid and flexbox, as well as how to make a website responsive and optimized for smooth performance and accessibility.",
+  },
+  {
     name: "Simply Do",
     techStack: "React.js, HTML/CSS",
     link: "https://simply-do.netlify.app/",
