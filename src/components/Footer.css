@@ -5,14 +5,15 @@
   align-items: center;
   justify-items: center;
   column-gap: 3.6rem;
-  row-gap: 2.4rem;
+  row-gap: 1.8rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0.8rem;
 }
 
 .Footer i {
-  font-size: 3rem;
+  font-size: 3.2rem;
+  font-weight: normal;
 }
 
 .copyright {

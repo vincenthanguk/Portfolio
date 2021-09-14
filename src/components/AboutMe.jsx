@@ -8,7 +8,7 @@ class AboutMe extends Component {
     return (
       <div className="AboutMe">
         <div className="profile-picture">
-          <img src="images/portrait_cropped.jpg" alt="Vincent Kreusel" />
+          <img src="images/portrait_cropped.jpeg" alt="Vincent Kreusel" />
         </div>
         <div className="profile-text-container">
           <h1 className="profile-heading">Hello World!</h1>

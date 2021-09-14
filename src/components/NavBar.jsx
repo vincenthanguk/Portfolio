@@ -13,7 +13,7 @@ class NavBar extends Component {
         </div>
         <div className="NavBar-link">
           <NavLink exact activeClassName="active-link" to="/projects">
-            My Projects
+            Projects
           </NavLink>
         </div>
       </div>

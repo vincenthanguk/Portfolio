@@ -2,15 +2,15 @@
   display: flex;
   justify-content: flex-end;
   gap: 3.2rem;
-  padding: 4.4rem 9.8rem;
+  padding: 3.2rem 9.8rem;
 }
 
 .NavBar-link {
 }
 
 .active-link {
-  color: #e3e8dc;
-  border-bottom: 1px solid #e3e8dc;
+  color: #eaeceb;
+  border-bottom: 1px solid #eaeceb;
 }
 
 a {
