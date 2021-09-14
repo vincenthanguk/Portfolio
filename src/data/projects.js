@@ -1,7 +1,7 @@
 const projects = [
   {
-    name: "Lights Out",
-    techStack: "React.js, HTML/CSS",
+    name: "Lights Out!",
+    techStack: "React.js | HTML/CSS",
     link: "https://lights-out-vincentmax.netlify.app/",
     image: "images/lightsout_thumbnail.jpg",
     description:
@@ -9,7 +9,7 @@ const projects = [
   },
   {
     name: "Solvitur Ambulando",
-    techStack: "JavaScript, HTML/CSS",
+    techStack: "JavaScript | HTML/CSS",
     link: "https://solvitur-ambulando.netlify.app/",
     image: "/images/solvitur_thumbnail.jpg",
     description:
@@ -17,7 +17,7 @@ const projects = [
   },
   {
     name: "McCune-Reischauer Converter",
-    techStack: "JavaScript, HTML/CSS",
+    techStack: "JavaScript | HTML/CSS",
     link: "https://mccune-reischauer.netlify.app/",
     image: "images/mccune_thumbnail.jpg",
     description:
@@ -25,7 +25,7 @@ const projects = [
   },
   {
     name: "Natours",
-    techStack: "Node.js, MongoDB, Mongoose, Express, Pug",
+    techStack: "Node.js | Express | MongoDB | Mongoose",
     link: "http://natours-vincenthanguk.herokuapp.com/",
     image: "images/natours_thumbnail.png",
     description:
@@ -33,7 +33,7 @@ const projects = [
   },
   {
     name: "Omnifood",
-    techStack: "JavaScript, HTML/CSS",
+    techStack: "JavaScript | HTML/CSS",
     link: "https://omnifood-vincent.netlify.app/",
     image: "images/omnifood_thumbnail.png",
     description:
@@ -41,7 +41,7 @@ const projects = [
   },
   {
     name: "Simply Do",
-    techStack: "React.js, HTML/CSS",
+    techStack: "React.js | HTML/CSS",
     link: "https://simply-do.netlify.app/",
     image: "images/simplydo_thumbnail.jpg",
     description:

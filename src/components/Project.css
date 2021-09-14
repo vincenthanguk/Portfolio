@@ -1,45 +1,81 @@
 .Project {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  color: rgba(255, 255, 255, 0.8);
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  column-gap: 3.2rem;
+  align-items: center;
+  justify-items: start;
+  color: #ecf1e3;
+  margin-bottom: 4.8rem;
 }
 
-.project-description {
-  font-size: 0.8rem;
-  margin-left: 2rem;
-  max-width: 650px;
+/* li:nth-child(odd) .project-description {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+li:nth-child(odd) .project-image {
+  grid-column: 2;
+  grid-row: 1;
+} */
+
+.project-image {
+  border: 2px solid #a3b18a;
+  border-radius: 50%;
+  justify-self: end;
+  width: 30rem;
+  overflow: hidden;
+}
+
+.project-image img {
+  display: block;
+  width: 100%;
+  transition: all 0.3s;
+}
+.project-image img:hover {
+  transform: scale(1.1);
 }
 
 .project-description-title {
   color: #a3b18a;
   font-size: 1.1rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  margin-bottom: 15px;
+  margin-bottom: 1.2rem;
 }
 
 .project-description-title a {
-  color: #c0d1a2;
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: #eeffd0;
 }
 .project-description-title a:hover {
-  color: #eeffd0;
+  color: #ecf1e3;
 }
 
 .project-description-techstack {
-  font-size: 0.9rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
+.project-description {
+  font-size: 1.6rem;
+  line-height: 1.3;
+  max-width: 650px;
+}
 img {
-  border: 2px solid #a3b18a;
-  border-radius: 50%;
-  width: 180px;
-  height: 180px;
+  /* border: 2px solid #a3b18a;
+  border-radius: 50%; */
+  width: 30rem;
+  height: 30rem;
   box-shadow: inset -1px 3px 8px 5px #344e41,
-    2px 5px 16px 0px rgba(0, 0, 0, 0.4), 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    2px 5px 16px 0px rgba(0, 0, 0, 0.205), 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
-
+/* 
 @media (max-width: 767.98px) {
   .Project {
     margin-top: 0px;
@@ -57,4 +93,4 @@ img {
     margin-bottom: 20px;
     margin-left: 0px;
   }
-}
+} */

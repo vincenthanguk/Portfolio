@@ -13,13 +13,15 @@
 }
 
 .profile-picture {
+  border: 2px solid #a3b18a;
+  border-radius: 50%;
   justify-self: end;
+  overflow: hidden;
 }
 
 .profile-picture img {
-  border: 2px solid #a3b18a;
-  width: 25rem;
-  height: 25rem;
+  width: 42rem;
+  height: 42rem;
 }
 
 .profile-text-container {
@@ -29,8 +31,9 @@
 .profile-heading {
   font-size: 7.4rem;
   font-weight: 700;
-  letter-spacing: 2px;
-  color: #ebedec;
+  letter-spacing: 0.5px;
+  /* color: #f2f6ec; */
+  color: #eeffd0;
   margin-bottom: 3.2rem;
 }
 
@@ -38,16 +41,35 @@
   color: #a3b18a;
   /* font-size: 3.2rem; */
   /* display: inline; */
-  margin-right: 1.6rem;
+  margin-right: 1.2rem;
 }
 
 .profile-text {
-  font-size: 1.8rem;
-  color: #ebedec;
-  line-height: 1.6;
+  font-size: 1.6rem;
+  color: #ecf1e3;
+  line-height: 1.5;
+  margin-bottom: 2.4rem;
 }
 
 .fa-quote-left {
+}
+
+.profile-btn {
+  background-color: #d16014;
+  color: #fff;
+  padding: 1.6rem 3.2rem;
+  border: none;
+  border-radius: 9px;
+  outline: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  transition: all ease-in 0.2s;
+}
+.profile-btn:hover {
+  background-color: #bc5612;
 }
 
 /* .fa-quote-right {

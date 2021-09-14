@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
 
 import "./AboutMe.css";
 
@@ -7,7 +8,7 @@ class AboutMe extends Component {
     return (
       <div className="AboutMe">
         <div className="profile-picture">
-          <img src="images/portrait_thumbnail.jpg" alt="Vincent Kreusel" />
+          <img src="images/portrait_cropped.jpg" alt="Vincent Kreusel" />
         </div>
         <div className="profile-text-container">
           <h1 className="profile-heading">Hello World!</h1>
@@ -17,10 +18,12 @@ class AboutMe extends Component {
             </span>
             My name is Vincent. I have taught myself how to code and build web
             applications from scratch. The enjoyment of problem-solving and my
-            curiosity for learning new concepts motivate me to improve my coding
-            skills every day.
+            curiosity for learning new programming concepts motivate me to work
+            on my skills every day.
           </blockquote>
-          <button>Check out my projects</button>
+          <NavLink exact activeClassName="active-link" to="/projects">
+            <button className="profile-btn">Check out my projects</button>
+          </NavLink>
         </div>
       </div>
     );
