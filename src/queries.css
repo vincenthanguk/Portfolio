@@ -1,0 +1,45 @@
+/* *********************************** */
+/* BELOW 1130px (Smaller desktops) */
+/* *********************************** */
+/* 
+@media (max-width: 71em) {
+  .profile-picture img {
+    width: 36rem;
+    height: 36rem;
+  }
+
+  .profile-heading {
+    font-size: 6.2rem;
+  }
+
+  .project-image {
+    width: 24rem;
+  }
+  img {
+    width: 24rem;
+    height: 24rem;
+  }
+} */
+
+/* *********************************** */
+/* BELOW 975px (Smaller desktops) */
+/* *********************************** */
+
+/* @media (max-width: 61em) {
+  .profile-picture img {
+    width: 24rem;
+    height: 24rem;
+  }
+
+  .profile-heading {
+    font-size: 60rem;
+  }
+
+  .project-image {
+    width: 24rem;
+  }
+  img {
+    width: 24rem;
+    height: 24rem;
+  }
+} */

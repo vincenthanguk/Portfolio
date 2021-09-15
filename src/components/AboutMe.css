@@ -32,7 +32,6 @@
   font-size: 7.4rem;
   font-weight: 700;
   letter-spacing: 0.5px;
-  /* color: #f2f6ec; */
   color: #eeffd0;
   margin-bottom: 2.4rem;
 }
@@ -75,10 +74,6 @@
   background-color: #d6702c;
 }
 
-/* .fa-quote-right {
-  margin-left: 0.6rem;
-} */
-
 /* @media (max-width: 767.98px) {
   .AboutMe {
     flex-direction: column;
@@ -99,3 +94,145 @@
     width: 80vw;
   }
 } */
+
+/* *********************************** */
+/* BELOW 1130px (Landscape Tablets) */
+/* *********************************** */
+
+@media (max-width: 71em) {
+  .profile-picture img {
+    width: 36rem;
+    height: 36rem;
+  }
+
+  .profile-heading {
+    font-size: 6.2rem;
+  }
+
+  .project-image {
+    width: 24rem;
+  }
+  img {
+    width: 24rem;
+    height: 24rem;
+  }
+}
+
+/* *********************************** */
+/* BELOW 975px (Tablets) */
+/* *********************************** */
+
+@media (max-width: 61em) {
+  .profile-picture img {
+    width: 24rem;
+    height: 24rem;
+  }
+
+  .profile-heading {
+    font-size: 5.2rem;
+  }
+
+  .project-image {
+    width: 24rem;
+  }
+  img {
+    width: 24rem;
+    height: 24rem;
+  }
+}
+
+/* *********************************** */
+/* BELOW 827px (Small Tablets) */
+/* *********************************** */
+@media (max-width: 52em) {
+  .AboutMe {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0;
+    row-gap: 3rem;
+  }
+
+  .profile-picture {
+    justify-self: center;
+  }
+
+  .profile-text-container {
+    justify-self: center;
+    text-align: center;
+  }
+
+  .profile-heading {
+    margin-bottom: 1.6rem;
+  }
+
+  .profile-btn {
+    padding: 1.2rem 2.4rem;
+  }
+
+  .profile-text {
+    margin-bottom: 3.2rem;
+  }
+}
+
+/* *********************************** */
+/* BELOW 500px (Mobile) */
+/* *********************************** */
+
+@media (max-width: 32em) {
+  .AboutMe {
+    grid-template-rows: 1fr 1.7fr;
+    /* gap: 0; */
+    margin-top: 1.6rem;
+  }
+  .profile-picture img {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .project-image {
+    width: 24rem;
+  }
+  img {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .profile-heading {
+    font-size: 4.4rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .profile-btn {
+    padding: 1.2rem 2.4rem;
+  }
+
+  .profile-text-container {
+    align-self: start;
+  }
+
+  .profile-text {
+    margin-bottom: 3.2rem;
+    font-size: 1.2rem;
+  }
+}
+
+/* *********************************** */
+/* BELOW 375px (Small Mobile) */
+/* *********************************** */
+
+@media (max-width: 24em) {
+  .AboutMe {
+    row-gap: 1.2rem;
+    margin-top: 3.6rem;
+  }
+  .profile-heading {
+    font-size: 3.6rem;
+  }
+  .profile-btn {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+  }
+  .profile-text {
+    margin-bottom: 2.4rem;
+  }
+}
